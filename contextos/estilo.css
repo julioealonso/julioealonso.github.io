@@ -1,0 +1,6 @@
+:root { --fondo: #f7f5f0; --texto: #1d1b18; --suave: #5c5750; --acento: #b4236e; }
+@media (prefers-color-scheme: dark) { :root { --fondo: #131211; --texto: #ece8e1; --suave: #a39d94; --acento: #ff6fc8; } }
+body { margin: 0; background: var(--fondo); color: var(--texto); font: 17px/1.6 system-ui, sans-serif; }
+main { max-width: 42rem; margin: 0 auto; padding: 3rem 1rem; }
+h1 { font-size: 1.8rem; line-height: 1.2; } h2 { font-size: 1.15rem; margin-top: 2rem; }
+p.pie, small { color: var(--suave); } a { color: var(--acento); }
